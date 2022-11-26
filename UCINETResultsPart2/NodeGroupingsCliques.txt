@@ -1,0 +1,95 @@
+﻿CLIQUES
+--------------------------------------------------------------------------------
+
+Minimum Set Size:                       3
+Input dataset:                          UCINETDataPart2 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart2)
+
+WARNING: Valued graph. All values > 0 treated as 1
+8 cliques found.
+
+   1:  Rinconete Monipodio Maniferro Gananciosa Escalanta Juliana
+   2:  Cortadillo Monipodio Maniferro Gananciosa Escalanta Juliana
+   3:  Monipodio Maniferro Gananciosa Escalanta Juliana Repolido
+   4:  Monipodio Gananciosa Escalanta Juliana Repolido Chiquiznaque
+   5:  Rinconete Monipodio Gananciosa Escalanta Pipota
+   6:  Cortadillo Monipodio Gananciosa Escalanta Pipota
+   7:  Cortadillo Ganchuelo Monipodio Pipota
+   8:  Monipodio Chiquiznaque Caballero
+
+Clique Participation Scores: Prop. of clique members that each node is adjacent to
+
+                         1     2     3     4     5     6     7     8
+                     ----- ----- ----- ----- ----- ----- ----- -----
+          Rinconete  1.000 0.833 0.833 0.667 1.000 0.800 0.500 0.333
+         Cortadillo  0.833 1.000 0.833 0.667 0.800 1.000 1.000 0.333
+          Ganchuelo  0.167 0.333 0.167 0.167 0.400 0.600 1.000 0.333
+          Monipodio  1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000
+          Maniferro  1.000 1.000 1.000 0.833 0.800 0.800 0.500 0.333
+           Tagarote  0.167 0.167 0.167 0.167 0.200 0.200 0.250 0.333
+         Gananciosa  1.000 1.000 1.000 1.000 1.000 1.000 0.750 0.667
+          Escalanta  1.000 1.000 1.000 1.000 1.000 1.000 0.750 0.667
+             Pipota  0.667 0.667 0.500 0.500 1.000 1.000 1.000 0.333
+            Juliana  1.000 1.000 1.000 1.000 0.800 0.800 0.500 0.667
+           Repolido  0.833 0.833 1.000 1.000 0.600 0.600 0.250 0.667
+       Chiquiznaque  0.667 0.667 0.833 1.000 0.600 0.600 0.250 1.000
+          Caballero  0.167 0.167 0.167 0.333 0.200 0.200 0.250 1.000
+
+
+HIERARCHICAL CLUSTERING OF OVERLAP MATRIX
+
+                              C  
+            C         G       h  
+          G o   R M M a E     i C
+        T a r   i a o n s   R q a
+        a n t   n n n a c J e u b
+        g c a P c i i n a u p i a
+        a h d i o f p c l l o z l
+        r u i p n e o i a i l n l
+        o e l o e r d o n a i a e
+        t l l t t r i s t n d q r
+        e o o a e o o a a a o u o
+
+                          1 1 1 1
+Level   6 3 2 9 1 5 4 7 8 0 1 2 3
+-----   - - - - - - - - - - - - -
+6.000   . . . . . . XXXXX . . . .
+4.000   . . . . . . XXXXXXX . . .
+3.000   . . . . . XXXXXXXXX . . .
+2.000   . . XXX . XXXXXXXXX . . .
+1.833   . . XXX . XXXXXXXXXXX . .
+1.000   . XXXXX . XXXXXXXXXXX XXX
+0.617   . XXXXX XXXXXXXXXXXXX XXX
+0.358   . XXXXXXXXXXXXXXXXXXX XXX
+0.222   . XXXXXXXXXXXXXXXXXXXXXXX
+0.000   XXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+
+Actor-by-Actor Clique Co-Membership Matrix is no longer displayed, but it is saved on disk
+
+Group indicator matrix saved as dataset CliqueSets
+Actor-by-Actor clique co-membership matrix saved as dataset CliqueOverlap
+Clique co-membership partition-by-actor indicator matrix saved as dataset CliquePart
+
+HIERARCHICAL CLUSTERING OF OVERLAP MATRIX
+
+Level   1 2 3 4 5 6 7 8
+-----   - - - - - - - -
+5.000   XXXXX . . . . .
+4.333   XXXXXXX . . . .
+4.000   XXXXXXX XXX . .
+3.250   XXXXXXXXXXX . .
+1.667   XXXXXXXXXXXXX .
+1.143   XXXXXXXXXXXXXXX
+
+
+
+
+Clique-by-Clique co-membership matrix saved as dataset Clique-by-cliqueOverlap
+Clique by clustering partition matrix saved as dataset Clique-by-partition
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 11:43:48
+UCINET 6.759 UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+

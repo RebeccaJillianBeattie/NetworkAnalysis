@@ -1,0 +1,68 @@
+﻿PROFILE STRUCTURAL EQUIVALENCE
+--------------------------------------------------------------------------------
+
+Measure:                                Euclidean Distance
+Include transpose                       YES
+Diagonal:                               Reciprocal1 (single count)
+Use geodesics?                          NO
+Input dataset:                          UCINETDataPart2 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart2)
+
+
+
+Structural Equivalence Matrix
+
+                         1     2     3     4     5     6     7     8     9    10    11    12    13
+                     Rinco Corta Ganch Monip Manif Tagar Ganan Escal Pipot Julia Repol Chiqu Cabal
+                     ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- -----
+    1     Rinconete   0.00 13.71 18.06 23.54 16.67 23.22 20.81 21.49 25.06 19.72 21.12 20.98 21.89
+    2    Cortadillo  13.71  0.00  6.40 33.00  6.32 11.45  9.95 10.77 13.64 11.87 10.68 10.10 11.45
+    3     Ganchuelo  18.06  6.40  0.00 34.31  4.58  5.57  6.78  5.74  8.12  9.49  8.00  6.63  6.56
+    4     Monipodio  23.54 33.00 34.31  0.00 31.37 35.14 32.00 32.65 33.69 31.75 32.83 33.97 34.44
+    5     Maniferro  16.67  6.32  4.58 31.37  0.00  7.87  7.14  6.86  9.59  7.07  8.00  6.86  8.25
+    6      Tagarote  23.22 11.45  5.57 35.14  7.87  0.00  7.28  4.90  4.00 10.44  8.19  6.86  5.48
+    7    Gananciosa  20.81  9.95  6.78 32.00  7.14  7.28  0.00  4.00  8.00  7.55  4.12  8.31  8.06
+    8     Escalanta  21.49 10.77  5.74 32.65  6.86  4.90  4.00  0.00  5.10  7.87  6.32  7.48  6.00
+    9        Pipota  25.06 13.64  8.12 33.69  9.59  4.00  8.00  5.10  0.00 10.44  9.64  8.54  7.07
+   10       Juliana  19.72 11.87  9.49 31.75  7.07 10.44  7.55  7.87 10.44  0.00  6.71  9.22 10.25
+   11      Repolido  21.12 10.68  8.00 32.83  8.00  8.19  4.12  6.32  9.64  6.71  0.00  8.54  7.94
+   12  Chiquiznaque  20.98 10.10  6.63 33.97  6.86  6.86  8.31  7.48  8.54  9.22  8.54  0.00  4.24
+   13     Caballero  21.89 11.45  6.56 34.44  8.25  5.48  8.06  6.00  7.07 10.25  7.94  4.24  0.00
+
+HIERARCHICAL CLUSTERING OF EQUIVALENCE MATRIX
+
+                               C  
+             C         G       h  
+         M R o G M   E a       i C
+         o i r a a   s n R T   q a
+         n n t n n J c a e a   u b
+         i c a c i u a n p g P i a
+         p o d h f l l c o a i z l
+         o n i u e i a i l r p n l
+         d e l e r a n o i o o a e
+         i t l l r n t s d t t q r
+         o e o o o a a a o e a u o
+
+                   1     1     1 1
+ Level   4 1 2 3 5 0 8 7 1 6 9 2 3
+------   - - - - - - - - - - - - -
+ 4.000   . . . . . . XXX . XXX . .
+ 4.243   . . . . . . XXX . XXX XXX
+ 4.583   . . . XXX . XXX . XXX XXX
+ 5.591   . . . XXX . XXXXX XXX XXX
+ 6.351   . . XXXXX . XXXXX XXX XXX
+ 7.020   . . XXXXX . XXXXX XXXXXXX
+ 7.131   . . XXXXX XXXXXXX XXXXXXX
+ 8.223   . . XXXXX XXXXXXXXXXXXXXX
+ 8.598   . . XXXXXXXXXXXXXXXXXXXXX
+20.764   . XXXXXXXXXXXXXXXXXXXXXXX
+32.654   XXXXXXXXXXXXXXXXXXXXXXXXX
+
+
+Output actor-by-actor equivalence matrix saved as dataset SE (C:\Users\rjbea\Documents\UCINET data\SE)
+Output partition-by-actor indicator matrix saved as dataset SEPart (C:\Users\rjbea\Documents\UCINET data\SEPart)
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 15:37:39
+UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+

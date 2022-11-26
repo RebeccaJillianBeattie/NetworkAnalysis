@@ -1,0 +1,37 @@
+﻿CLUSTERING COEFFICIENT
+--------------------------------------------------------------------------------
+
+Input dataset:                          UCINETDataPart1 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart1)
+
+Warning: Valued data. Clustering coefficients can be larger than 1.
+Overall graph clustering coefficient: 5.600
+Network density: 3.200
+(cc - density)/cc: 0.429
+Weighted Overall graph clustering coefficient: 3.200
+Small world index: 0.991
+
+Node Clustering Coefficients
+
+                           1         2
+                   Clus Coef    nPairs
+                   --------- ---------
+    1   Rinconete      2.000     6.000
+    2  Cortadillo      2.000     6.000
+    3     Soldado      8.000     1.000
+    4  Estudiante      8.000     1.000
+    5   Ganchuelo      8.000     1.000
+
+
+
+
+
+Node-level clustering coefficients saved as dataset ClusteringCoefficients (C:\Users\rjbea\Documents\UCINET data\ClusteringCoefficients)
+Overall clustering coefficients saved as dataset OverallCC (C:\Users\rjbea\Documents\UCINET data\OverallCC)
+
+Please note that, for undirected graphs, the weighted clustering coefficient is simply transitivity.
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 15:04:38
+UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+

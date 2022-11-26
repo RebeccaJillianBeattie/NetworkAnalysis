@@ -1,0 +1,65 @@
+﻿TRIAD CENSUS
+--------------------------------------------------------------------------------
+
+Input Network dataset:                  UCINETDataPart1 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart1)
+Output Measures:                        UCINETDataPart1-Tri (C:\Users\rjbea\Documents\UCINET data\UCINETDataPart1-Tri)
+
+
+Triad Census for dataset UCINETDataPart1
+
+             UCINETDat
+             ---------
+    1   003      1.000
+    2   012      0.000
+    3   102      0.000
+    4  021D      0.000
+    5  021U      0.000
+    6  021C      0.000
+    7  111D      0.000
+    8  111U      0.000
+    9  030T      0.000
+   10  030C      0.000
+   11   201      6.000
+   12  120D      0.000
+   13  120U      0.000
+   14  120C      0.000
+   15   210      0.000
+   16   300      3.000
+
+1. 003 = A,B,C, the empty subgraph.
+2. 012 = A->B, C, subgraph with a single directed edge.
+3. 102 = A<->B, C, the subgraph with a mutual connection between two vertices.
+4. 021D = A<-B->C, the out-star.
+5. 021U = A->B<-C, the in-star.
+6. 021C = A->B->C, directed line.
+7. 111D = A<->B<-C.
+8. 111U = A<->B->C.
+9. 030T = A->B<-C, A->C.
+10. 030C = A<-B<-C, A->C.
+11. 201 = A<->B<->C.
+12. 120D = A<-B->C, A<->C.
+13. 120U = A->B<-C, A<->C.
+14. 120C = A->B->C, A<->C.
+15. 210 = A->B<->C, A<->C.
+16. 300 = A<->B<->C, A<->C, complete subgraph.
+
+9, 12, 13, 16 are transitive
+6, 7, 8, 10, 11, 14, 15 are intransitive
+
+Transitivity
+
+                        1 
+                    ----- 
+     1 Transitivity 0.333 
+
+1 rows, 1 columns, 1 levels.
+
+
+Algorithm from: Batagelj V., Mrvar A.: A subquadratic triad census algorithm for large sparse networks with small maximum degree. Social Networks 23(2001), 237-243
+
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 16:23:16
+UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+

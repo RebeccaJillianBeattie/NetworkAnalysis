@@ -1,0 +1,69 @@
+﻿CLIQUES
+--------------------------------------------------------------------------------
+
+Minimum Set Size:                       3
+Input dataset:                          UCINETDataPart1 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart1)
+
+WARNING: Valued graph. All values > 0 treated as 1
+3 cliques found.
+
+   1:  Rinconete Cortadillo Soldado
+   2:  Rinconete Cortadillo Estudiante
+   3:  Rinconete Cortadillo Ganchuelo
+
+Clique Participation Scores: Prop. of clique members that each node is adjacent to
+
+                       1     2     3
+                   ----- ----- -----
+        Rinconete  1.000 1.000 1.000
+       Cortadillo  1.000 1.000 1.000
+          Soldado  1.000 0.667 0.667
+       Estudiante  0.667 1.000 0.667
+        Ganchuelo  0.667 0.667 1.000
+
+
+HIERARCHICAL CLUSTERING OF OVERLAP MATRIX
+
+          C   E  
+        R o   s G
+        i r   t a
+        n t S u n
+        c a o d c
+        o d l i h
+        n i d a u
+        e l a n e
+        t l d t l
+        e o o e o
+
+Level   1 2 3 4 5
+-----   - - - - -
+3.000   XXX . . .
+1.000   XXXXX . .
+0.400   XXXXXXX .
+0.171   XXXXXXXXX
+
+
+
+Actor-by-Actor Clique Co-Membership Matrix is no longer displayed, but it is saved on disk
+
+Group indicator matrix saved as dataset CliqueSets
+Actor-by-Actor clique co-membership matrix saved as dataset CliqueOverlap
+Clique co-membership partition-by-actor indicator matrix saved as dataset CliquePart
+
+HIERARCHICAL CLUSTERING OF OVERLAP MATRIX
+
+Level   1 2 3
+-----   - - -
+2.000   XXXXX
+
+
+
+
+Clique-by-Clique co-membership matrix saved as dataset Clique-by-cliqueOverlap
+Clique by clustering partition matrix saved as dataset Clique-by-partition
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 11:41:29
+UCINET 6.759 UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+

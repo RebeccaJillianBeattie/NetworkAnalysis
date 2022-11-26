@@ -1,0 +1,51 @@
+﻿PROFILE STRUCTURAL EQUIVALENCE
+--------------------------------------------------------------------------------
+
+Measure:                                Pearson Correlation
+Include transpose                       YES
+Diagonal:                               Reciprocal1 (single count)
+Use geodesics?                          NO
+Input dataset:                          UCINETDataPart1 (C:\Users\rjbea\Documents\Bologna\DHDK 2\Network Analysis\Project\UCINETDataPart1)
+
+
+
+Structural Equivalence Matrix
+
+                       1     2     3     4     5
+                   Rinco Corta Solda Estud Ganch
+                   ----- ----- ----- ----- -----
+    1   Rinconete   1.00  0.89  0.05  0.36  0.92
+    2  Cortadillo   0.89  1.00  0.42  0.09  0.85
+    3     Soldado   0.05  0.42  1.00  0.50  0.93
+    4  Estudiante   0.36  0.09  0.50  1.00  0.76
+    5   Ganchuelo   0.92  0.85  0.93  0.76  1.00
+
+HIERARCHICAL CLUSTERING OF EQUIVALENCE MATRIX
+
+        E   C    
+        s R o   G
+        t i r   a
+        u n t S n
+        d c a o c
+        i o d l h
+        a n i d u
+        n e l a e
+        t t l d l
+        e e o o o
+
+Level   4 1 2 3 5
+-----   - - - - -
+0.930   . . . XXX
+0.893   . XXX XXX
+0.682   . XXXXXXX
+0.511   XXXXXXXXX
+
+
+Output actor-by-actor equivalence matrix saved as dataset SE (C:\Users\rjbea\Documents\UCINET data\SE)
+Output partition-by-actor indicator matrix saved as dataset SEPart (C:\Users\rjbea\Documents\UCINET data\SEPart)
+
+----------------------------------------
+Running time:  00:00:01
+Output generated:  26 nov. 22 15:44:42
+UCINET 6.759 Copyright (c) 2002-2022 Analytic Technologies
+
